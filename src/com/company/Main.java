@@ -12,10 +12,10 @@ public class Main {
     public static void main(String[] args) {
         // write your code here
 
-        userInput();
+        convertString();
     }
 
-    private static void userInput() {
+    private static String[] userInput() {
         Scanner myUserInput = new Scanner(System.in);
         //int  numberOfEntries = 0;
         //Boolean isValidInput = true;
@@ -28,9 +28,13 @@ public class Main {
                 System.out.println("Please enter a letter of the alphabet ony");
                 inPutList[i] = myUserInput.nextLine();
             }
-        }
-         System.out.println(Arrays.toString(inPutList));
+        }ss
+        return inPutList;
+    }
 
+    private static void convertString(){
+        String[] storedInput = userInput();
+        System.out.println(Arrays.toString(storedInput));
 
 
     }
