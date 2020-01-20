@@ -33,6 +33,11 @@ public class Main {
         String[] storedInput = userInput();
         System.out.println(Arrays.toString(storedInput));
 
-
+        StringBuffer sb = new StringBuffer(); // convert the string array into a single string
+        for(int i = 0; i <storedInput.length;i++){
+            sb.append(storedInput[i]);
+        }
+        String oneString = sb.toString();
+        System.out.println(oneString);
     }
 }
