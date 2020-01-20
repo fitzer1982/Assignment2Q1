@@ -1,10 +1,7 @@
 package com.company;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 public class Main {
 
@@ -28,7 +25,7 @@ public class Main {
                 System.out.println("Please enter a letter of the alphabet ony");
                 inPutList[i] = myUserInput.nextLine();
             }
-        }ss
+        }
         return inPutList;
     }
 
